@@ -26,3 +26,26 @@ Usage Example:
     
     Generating image…
     Saved as img1.png (1200×628)
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+PRO'S:
+
+Single-Prompt Workflow: Accepts a multi-line prompt in one go, letting you describe “10% off” banners with rich detail in a single step.
+
+Automated Sequencing: Auto-increments filenames (img1.png, img2.png…) so you can batch-generate multiple offers without naming headaches.
+
+Consistent Banner Size: Forces every output to a fixed 1200×628 resolution, ensuring uniformity across all marketing assets.
+
+API-Driven Creativity: Leverages Google Gemini’s image model for on-demand, AI-powered design variations from the same prompt.
+
+Robust Logging: Tracks each stage (init, request, resize, save) for easy debugging and audit trails of generated campaigns.
+
+Error Handling & Validation: Graceful checks on API key presence, response content, and file operations to minimize runtime failures.
+
+Environment Configuration: Reads API credentials from a .env file, separating secrets from code and streamlining deployment.
+
+Directory Management: Auto-creates an images/ folder if missing, so you can run it anywhere without manual setup.
